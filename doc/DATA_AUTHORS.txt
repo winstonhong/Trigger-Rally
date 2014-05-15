@@ -1,0 +1,284 @@
+
+Author and licence info for files under data/ directory.
+
+GPL = GNU General Public License v2 or later ( http://www.gnu.org/licenses/gpl.txt )
+CC0 (PD) = Creative Commons Zero 1.0 Universal Public Domain Dedication ( http://creativecommons.org/publicdomain/zero/1.0/ )
+
+Files marked "***" are of uncertain copyright and/or trademark status, and
+should be replaced.
+
+
+Richard Langridge / GPL
+  data/events/triggercup/bigjump/colormap.jpg
+  data/events/triggercup/bigjump/foliagemap.png
+  data/events/triggercup/bigjump/heightmap.png
+  data/events/triggercup/bigjump/jump.level
+  data/events/triggercup/desertstorm/colormap.jpg
+  data/events/triggercup/desertstorm/foliagemap.png
+  data/events/triggercup/desertstorm/heightmap.png
+  data/events/triggercup/desertstorm/storm.level
+  data/events/triggercup/lunar/colormap.jpg
+  data/events/triggercup/lunar/foliagemap.png
+  data/events/triggercup/lunar/heightmap.png
+  data/events/triggercup/lunar/lunar.level
+  data/events/triggercup/monkeybusiness/colormap.jpg
+  data/events/triggercup/monkeybusiness/foliagemap.png
+  data/events/triggercup/monkeybusiness/heightmap.png
+  data/events/triggercup/monkeybusiness/monkey.level
+  data/events/triggercup/oldmacdonald/colormap.jpg
+  data/events/triggercup/oldmacdonald/farm.level
+  data/events/triggercup/oldmacdonald/foliagemap.png
+  data/events/triggercup/oldmacdonald/heightmap.png
+  data/events/triggercup/triggercup.event
+  data/events/triggercup/warmup/colormap.jpg
+  data/events/triggercup/warmup/foliagemap.png
+  data/events/triggercup/warmup/heightmap.png
+  data/events/triggercup/warmup/warmup.level
+
+TODO(ja-reiko): Fill in author / licence for these.
+  data/maps/greengrounds/colormap.jpg
+  data/maps/greengrounds/foliagemap.png
+  data/maps/greengrounds/greengrounds.level
+  data/maps/greengrounds/heightmap.png
+  data/maps/mountainpass/colormap.jpg
+  data/maps/mountainpass/foliagemap.png
+  data/maps/mountainpass/heightmap.png
+  data/maps/mountainpass/mountainpass.level
+  data/maps/roundhouse/roundhouse-c.jpg
+  data/maps/roundhouse/roundhouse-f.jpg
+  data/maps/roundhouse/roundhouse-h.jpg
+  data/maps/roundhouse/roundhouse.level
+  data/maps/saharatea/level7-c.jpg
+  data/maps/saharatea/level7-f.png
+  data/maps/saharatea/level7-h.png
+  data/maps/saharatea/level7.level
+  data/plugins/banana_island.zip
+  data/plugins/cross_mountain.zip
+  data/plugins/crosspulp.zip
+  data/plugins/delta.zip
+  data/plugins/desert_rush.zip
+  data/plugins/ghats.zip
+  data/plugins/helicoil.zip
+  data/plugins/icypeak.zip
+  data/plugins/illa.zip
+  data/plugins/monza.zip
+  data/plugins/muntaya.zip
+  data/plugins/rscup.zip
+  data/plugins/santa.zip
+  data/plugins/serpentine.zip
+  data/plugins/snowlevel.zip
+  data/plugins/snowyhills.zip
+  data/plugins/tobago.zip
+  data/plugins/westernchallenge.zip
+
+Richard Langridge / GPL
+  data/maps/oldmacdonald/colormap.jpg
+  data/maps/oldmacdonald/foliagemap.png
+  data/maps/oldmacdonald/farm-bis.level
+  data/maps/oldmacdonald/farm-quinquies.level
+  data/maps/oldmacdonald/farm-sex.level
+  data/maps/oldmacdonald/heightmap.png
+
+kougloff, Iwan Gabovitch, Liviu Andronic / CC0 (PD)
+  data/sounds/gear.wav ( http://www.freesound.org/people/kougloff/sounds/117558/ )
+
+Richard Langridge / GPL
+  data/textures/dial_rev.png
+
+Ishmael Turner / GPL
+  data/textures/dial_speed_hybrid_kph.png
+  data/textures/dial_speed_hybrid_mph.png
+  data/textures/dial_speed_kph.png
+  data/textures/dial_speed_mph.png
+
+Richard Langridge / GPL
+  data/textures/dust.png
+  data/textures/shadow.png
+  data/textures/sky/blue.jpg
+  data/textures/sky/overcast.jpg
+  data/textures/sky/stars.jpg
+
+Iwan Gabovitch / Not copyrightable (temporary black images)
+  data/textures/splash/endgame.jpg
+  data/textures/splash/splash.jpg
+
+Richard Langridge / GPL
+  data/vehicles/evo/evo.ase
+  data/vehicles/evo/evo.vehicle
+  data/vehicles/evo/evo_complete.fx
+  data/vehicles/evo/evo_complete.jpg ***
+  data/vehicles/evo/evo_wheel.ase
+  data/vehicles/evo/glass.fx
+  data/vehicles/evo/glass.png
+  data/vehicles/focus/focus.ase
+  data/vehicles/focus/focus.vehicle
+  data/vehicles/focus/focus_complete.fx
+  data/vehicles/focus/focus_complete.jpg ***
+  data/vehicles/focus/focus_wheel.ase
+  data/vehicles/seat/seat.ase
+  data/vehicles/seat/seat.vehicle
+  data/vehicles/seat/seat.vehicle.contrib
+  data/vehicles/seat/seat_complete.fx
+  data/vehicles/seat/seat_complete.jpg ***
+  data/vehicles/seat/seat_wheel.ase
+
+Iwan 'qubodup' Gabovitch / CC0 (PD)
+  data/sounds/bang.wav ( http://www.freesound.org/people/qubodup/sounds/151624/ )
+  data/textures/life_helmet.png ( http://openclipart.org/detail/167195 )
+  data/textures/dial_gear.png ( http://openclipart.org/detail/167196 )
+  data/textures/veg/palmy.png ( http://opengameart.org/content/palm-plant-sprite-1024x1024 )
+  data/textures/noise.png
+
+Iwan 'qubodup' Gabovitch / GPL
+  data/maps/alignster/alignster-c.jpg
+  data/maps/alignster/alignster-h.jpg
+  data/maps/alignster/alignster-f.jpg
+  data/maps/alignster/alignster.level
+  data/maps/eversnake/eversnake-c.jpg
+  data/maps/eversnake/eversnake-h.png
+  data/maps/eversnake/eversnake-f.jpg
+  data/maps/eversnake/eversnake.level
+  labrally/labrally.level
+  labrally/labrally-f.png
+  labrally/labrally-h.png
+  labrally/labrally-c.png
+  data/maps/smallswirl/smallswirl-c.jpg
+  data/maps/smallswirl/smallswirl-h.jpg
+  data/maps/smallswirl/smallswirl-f.jpg
+  data/maps/smallswirl/smallswirl.level
+  data/sounds/engine.wav ( http://opengameart.org/content/car-engine-loop-96khz-4s )
+  data/textures/veg/cactus1.png ( http://opengameart.org/content/cactus-sprite-texture-0 )
+
+Onsemeliot <onsemeliot@riseup.net> / GPL
+  data/icon/*
+  data/maps/ancient/h.png
+  data/maps/ancient/m.png
+  data/maps/ancient/f.png
+  data/maps/ancient/c.png
+  data/maps/ancient/ancient.level
+  data/maps/dry/dry.level
+  data/maps/dry/h.png
+  data/maps/dry/f.png
+  data/maps/dry/c.png
+  data/maps/highland/
+  data/maps/highland/highland.level
+  data/maps/highland/h.png
+  data/maps/highland/f.png
+  data/maps/highland/c.png
+  data/maps/remote/remote.level
+  data/maps/remote/h.png
+  data/maps/remote/f.png
+  data/maps/remote/c.png
+  data/maps/stoned/h.png
+  data/maps/stoned/stoned.level
+  data/maps/stoned/f.png
+  data/maps/stoned/c.png
+  data/maps/country/*
+  data/maps/edge/*
+  data/maps/greenland/*
+  data/maps/jumpy/*
+  data/maps/littleisland/*
+  data/maps/mud/*
+  data/maps/pathfinder/*
+  data/maps/remote/*
+  data/maps/tropic/*
+  data/events/alps/green/foliagemap.png
+  data/events/alps/green/colormap.jpg
+  data/events/alps/green/green.level
+  data/events/alps/green/heightmap.png
+  data/events/alps/dawn/morning.jpg
+  data/events/alps/dawn/dawn.level
+  data/events/alps/dawn/foliagemap.png
+  data/events/alps/dawn/colormap.jpg
+  data/events/alps/dawn/heightmap.png
+  data/events/alps/dawn/hud.png
+  data/events/alps/maze/maze.level
+  data/events/alps/maze/foliagemap.png
+  data/events/alps/maze/darkblue.jpg
+  data/events/alps/maze/colormap.jpg
+  data/events/alps/maze/heightmap.png
+  data/events/alps/maze/hud.png
+  data/events/alps/lake/lake.level
+  data/events/alps/lake/foliagemap.png
+  data/events/alps/lake/colormap.jpg
+  data/events/alps/lake/heightmap.png
+  data/events/alps/rocky/foliagemap.png
+  data/events/alps/rocky/rocky.level
+  data/events/alps/rocky/colormap.jpg
+  data/events/alps/rocky/heightmapx.png
+  data/events/alps/rocky/heightmap.png
+  data/events/alps/alps.event
+  data/events/alps/forest/forest.level
+  data/events/alps/forest/foliagemap.png
+  data/events/alps/forest/colormap.jpg
+  data/events/alps/forest/heightmap.png
+  data/events/alps/mountain/foliagemap.png
+  data/events/alps/mountain/colormap.jpg
+  data/events/alps/mountain/mountain.level
+  data/events/alps/mountain/heightmap.png
+  data/events/marathon/*
+  data/events/chasingshadows/*
+  data/events/picturesque/*
+  data/textures/sky/overcast-blue
+  data/textures/sky/dawn.jpg
+  data/textures/sky/cloudy.png
+  data/textures/sky/dark-blue.png
+  data/textures/sky/light-clouds.jpg
+  data/textures/sky/stormy.jpg
+  data/textures/veg/post.png
+  data/textures/veg/mais.png
+  data/textures/veg/grain.png
+  data/textures/veg/ivy.png
+  data/textures/veg/bush-dry.png
+  data/textures/veg/bush.png
+
+URW++ / GPL
+  data/textures/consolefont.png (Nimbus Mono L)
+
+Liviu Andronic / GPL
+  labrally/labrally-bis.level
+
+Mysteryem / GPL
+  data/textures/detail.jpg ( http://opengameart.org/content/29-grounds-and-walls-and-water-1024x1024 )
+
+yughues / CC0 (PD)
+  data/textures/veg/grass-sprite.png ( http://opengameart.org/content/grass-pack-02 )
+
+yughues / CC0 (PD), Onsemeliot <onsemeliot@riseup.net> / GPL
+  data/textures/veg/grass.png
+
+Quargzon / CC0 (PD)
+  data/sounds/wind.wav ( http://www.freesound.org/people/Quargzon/sounds/103289/ )
+
+cognito perceptu / CC0 (PD)
+  data/sounds/gravel.wav ( http://www.freesound.org/people/cognito%20perceptu/sounds/97605/ )
+
+Richard Langridge, Farrer, Iwan Gabovitch / GPL
+  data/vehicles/evo/eva.blend
+  data/vehicles/evo/eva.mtl
+  data/vehicles/evo/eva.obj
+  data/vehicles/evo/eva_wheel.mtl
+  data/vehicles/evo/eva_wheel.obj
+  data/vehicles/seat/cordon.blend
+  data/vehicles/seat/cordon.mtl
+  data/vehicles/seat/cordon.obj
+  data/vehicles/seat/cordon_wheel.blend
+  data/vehicles/seat/cordon_wheel.mtl
+  data/vehicles/seat/cordon_wheel.obj
+  data/vehicles/focus/fox.blend
+  data/vehicles/focus/fox.mtl
+  data/vehicles/focus/fox.obj
+  data/vehicles/focus/fox_wheel.blend
+  data/vehicles/focus/fox_wheel.mtl
+  data/vehicles/focus/fox_wheel.obj
+
+Farrer, Iwan 'qubodup' Gabovitch / GPL
+  data/vehicles/evo/eva.png
+  data/vehicles/evo/eva_uv.png
+  data/vehicles/evo/eva.svg
+  data/vehicles/seat/cordon.png
+  data/vehicles/seat/cordon_uv.png
+  data/vehicles/seat/cordon.svg
+  data/vehicles/focus/fox.png
+  data/vehicles/focus/fox_uv.png
+  data/vehicles/focus/fox.svg
