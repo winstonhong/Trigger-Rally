@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<level
+	name="Monkey Business"
+	comment="What a cool track!"
+	author="Richard Langridge"
+	randomseed="1000"
+	>
+	
+	<terrain
+		heightmap="heightmap.png"
+		colormap="colormap.jpg"
+		foliagemap="foliagemap.png"
+		hudmap="colormap.jpg"
+		tilesize="16"
+		horizontalscale="3.0"
+		verticalscale="0.10"
+		>
+		
+		<foliageband
+			middle="0.7"
+			range="0.4"
+			density="0.0002"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+		
+		<foliageband
+			middle="1.0"
+			range="0.3"
+			density="0.0001"
+			sprite="/textures/veg/palmy.png"
+			spritecount="3"
+			/>
+		
+		
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/overcast.jpg"
+		rain="500.0"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="3.0, -3.0"
+		targettime="130.0">
+		
+		<startposition pos="355, 29, 2.0" ori="0, 0, 0, 1" />
+		
+		<checkpoint coords="335, 150" />
+		<checkpoint coords="305, 103" />
+		<checkpoint coords="270, 163" />
+		<checkpoint coords="243, 91" />
+		<checkpoint coords="185, 183" />
+		<checkpoint coords="182, 305" />
+		<checkpoint coords="331, 206" />
+		<checkpoint coords="337, 294" />
+		<checkpoint coords="346, 372" />
+		<checkpoint coords="274, 424" />
+		
+	</race>
+	
+</level>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<level 
+	name="Eversnake"
+	comment="Is this ever going to end?"
+	author="Iwan 'qubodup' Gabovitch"
+	randomseed="1337">
+	
+	<terrain
+		heightmap="eversnake-h.png"
+		colormap="eversnake-c.jpg"
+		foliagemap="eversnake-f.jpg"
+		hudmap="eversnake-c.jpg"
+		tilesize="16"
+		horizontalscale="4.0"
+		verticalscale="0.15"
+		>
+		
+		<foliageband
+			middle="0.7"
+			range="0.4"
+			density="0.00008"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/blue.jpg"
+		cloudscrollrate="0.003"
+		fogcolor="0.9, 0.95, 1.0"
+		fogdensity="0.002"
+		fogdensitysky="0.1"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="4.0, 4.0"
+		targettime="179.k">
+		
+		<startposition pos="66, 43, 2.0" oridegrees="250" />
+		
+		<checkpoint coords="197, 36" />
+		<checkpoint coords="193, 160" />
+		<checkpoint coords="100, 234" />
+		<checkpoint coords="101, 307" />
+		<checkpoint coords="150, 324" />
+		<checkpoint coords="136, 257" />
+		<checkpoint coords="229, 174" />
+		<checkpoint coords="244, 94" />
+		<checkpoint coords="314, 60" />
+		<checkpoint coords="419, 173" />
+		<checkpoint coords="383, 259" />
+		<checkpoint coords="261, 289" />
+		<checkpoint coords="326, 381" />
+		<checkpoint coords="397, 313" />
+		<checkpoint coords="356, 194" />
+		<checkpoint coords="301, 123" />
+		
+	</race>
+	
+</level>

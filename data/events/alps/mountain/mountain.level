@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<level
+	name="Mountain"
+	comment="Shitty weather. Drive Carefully!"
+	author="Onsemeliot"
+	randomseed="1200"
+	>
+	
+	<terrain
+		heightmap="heightmap.png"
+		colormap="colormap.jpg"
+		foliagemap="foliagemap.png"
+		hudmap="colormap.jpg"
+		tilesize="32"
+		horizontalscale="3.0"
+		verticalscale="0.15"
+		>
+		
+		<foliageband
+			middle="0.7"
+			range="0.4"
+			density="0.0004"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+		
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/overcast.jpg"
+		cloudscrollrate="0.02"
+		fogcolor="0.4, 0.4, 0.4"
+		fogdensity="0.02"
+		fogdensitysky="0.4"
+		rain="1500.0"
+		/>
+	
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	
+	<race coordscale="3.0, 3.0"
+		targettime="350.0">
+		
+		<startposition pos="233, 234" oridegrees="160" />
+		
+		<checkpoint coords="172, 216" />
+		<checkpoint coords="169, 370" />
+		<checkpoint coords="214, 425" />
+		<checkpoint coords="256, 62" />
+		<checkpoint coords="424, 121" />
+		<checkpoint coords="266, 126" />
+		<checkpoint coords="305, 215" />
+		<checkpoint coords="342, 169" />
+		<checkpoint coords="360, 194" />
+		<checkpoint coords="417, 181" />
+		<checkpoint coords="476, 96" />
+		<checkpoint coords="123, 45" />
+		<checkpoint coords="135, 183" />
+		<checkpoint coords="45, 215" />
+		<checkpoint coords="56, 279" />
+		<checkpoint coords="128, 236" />
+		<checkpoint coords="93, 320" />
+		<checkpoint coords="134, 467" />
+		<checkpoint coords="236, 446" />
+		<checkpoint coords="305, 445" />
+		<checkpoint coords="438, 403" />
+		<checkpoint coords="469, 257" />
+		<checkpoint coords="241, 299" />
+		<checkpoint coords="335, 372" />
+		<checkpoint coords="410, 295" />
+		
+	</race>
+	
+</level>

@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<level
+	name="Green Hill"
+	comment="Stay focused!"
+	author="Onsemeliot"
+	randomseed="1200"
+	>
+	
+	<terrain
+		heightmap="heightmap.png"
+		colormap="colormap.jpg"
+		foliagemap="foliagemap.png"
+		hudmap="colormap.jpg"
+		tilesize="64"
+		horizontalscale="2"
+		verticalscale="0.14"
+		>
+		
+		<foliageband
+			middle="0.7"
+			range="0.4"
+			density="0.0004"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+		
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/overcast.jpg"
+		cloudscrollrate="0.02"
+		fogcolor="0.4, 0.4, 0.4"
+		fogdensity="0.02"
+		fogdensitysky="0.3"
+		/>
+	
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	
+	<race coordscale="2, 2"
+		targettime="120.0">
+		
+		<startposition pos="72, 60" oridegrees="320" />
+
+		<checkpoint coords="105, 229" />
+		<checkpoint coords="47, 308" />
+		<checkpoint coords="213, 313" />
+		<checkpoint coords="202, 375" />
+		<checkpoint coords="422, 347" />
+		<checkpoint coords="237, 207" />
+		<checkpoint coords="391, 227" />
+		<checkpoint coords="375, 43" />
+		<checkpoint coords="308, 39" />
+		
+	</race>
+	
+</level>

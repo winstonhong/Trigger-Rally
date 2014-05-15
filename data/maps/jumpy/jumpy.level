@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<level 
+	name="Jumpy"
+	comment="Cars aren't birds?"
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		hudmap="m.png"
+		foliagemap="f.png"
+		tilesize="32"
+		horizontalscale="4"
+		verticalscale="0.17"
+		>
+		
+		<foliageband
+			middle="0.5"
+			range="0.45"
+			density="0.0004"
+			sprite="/textures/veg/bush.png"
+			spritecount="2"
+			/>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/overcast.jpg"
+		cloudscrollrate="0.001"
+		fogcolor="0.35, 0.35, 0.5"
+		fogdensity="0.002"
+		fogdensitysky="0.3"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="4, 4"
+		targettime="136">
+		
+		<startposition pos="226, 88" oridegrees="130" />
+		<checkpoint coords="56, 25" />
+		<checkpoint coords="53, 132" />
+		<checkpoint coords="113, 63" />
+		<checkpoint coords="144, 86" />
+		<checkpoint coords="136, 122" />
+		<checkpoint coords="227, 146" />
+		<checkpoint coords="213, 193" />
+		<checkpoint coords="47, 198" />
+		<checkpoint coords="-22, 93" />
+		
+	</race>
+	
+</level>

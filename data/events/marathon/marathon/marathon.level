@@ -1,0 +1,201 @@
+<?xml version="1.0" ?>
+<level 
+	name="Marathon"
+	comment="Don't get tired!"
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		foliagemap="f.png"
+		hudmap="c.png"
+		tilesize="64"
+		horizontalscale="4.5"
+		verticalscale="0.25"
+		>
+
+		<foliageband
+			middle="0.4"
+			range="0.05"
+			density="0.00035"
+			sprite="/textures/veg/post.png"
+			spritecount="2"
+			/>
+
+		<foliageband
+			middle="0.8"
+			range="0.2"
+			density="0.0006"
+			sprite="/textures/veg/bush.png"
+			spritecount="2"
+			/>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/blue.jpg"
+		cloudscrollrate="0.00"
+		fogcolor="0.3, 0.5, 0.6"
+		fogdensity="0.002"
+		fogdensitysky="0.01"
+		/>
+	
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	
+	<race coordscale="4.5, 4.5"
+		targettime="1357">
+		
+		<startposition pos="124, 2" oridegrees="0" />
+		<checkpoint coords="140, 25" />
+		<checkpoint coords="138, 73" />
+		<checkpoint coords="182, 92" />
+		<checkpoint coords="176, 57" />
+		<checkpoint coords="194, 50" />
+		<checkpoint coords="235, 85" />
+		<checkpoint coords="235, 45" />
+		<checkpoint coords="244, 36" />
+		<checkpoint coords="246, 6" />
+		<checkpoint coords="276, 32" />
+		<checkpoint coords="271, 44" />
+		<checkpoint coords="304, 39" />
+		<checkpoint coords="337, 59" />
+		<checkpoint coords="302, 90" />
+		<checkpoint coords="288, 80" />
+		<checkpoint coords="259, 106" />
+		<checkpoint coords="305, 126" />
+		<checkpoint coords="300, 111" />
+		<checkpoint coords="341, 108" />
+		<checkpoint coords="373, 83" />
+		<checkpoint coords="410, 145" />
+		<checkpoint coords="362, 144" />
+		<checkpoint coords="333, 170" />
+		<checkpoint coords="404, 184" />
+		<checkpoint coords="369, 222" />
+		<checkpoint coords="377, 278" />
+		<checkpoint coords="318, 281" />
+		<checkpoint coords="302, 303" />
+		<checkpoint coords="316, 308" />
+		<checkpoint coords="291, 327" />
+		<checkpoint coords="355, 362" />
+		<checkpoint coords="383, 332" />
+		<checkpoint coords="401, 337" />
+		<checkpoint coords="397, 306" />
+		<checkpoint coords="418, 301" />
+		<checkpoint coords="453, 344" />
+		<checkpoint coords="408, 397" />
+		<checkpoint coords="421, 414" />
+		<checkpoint coords="392, 434" />
+		<checkpoint coords="400, 451" />
+		<checkpoint coords="375, 462" />
+		<checkpoint coords="406, 489" />
+		<checkpoint coords="443, 451" />
+		<checkpoint coords="448, 435" />
+		<checkpoint coords="456, 494" />
+		<checkpoint coords="493, 468" />
+		<checkpoint coords="518, 492" />
+		<checkpoint coords="558, 475" />
+		<checkpoint coords="562, 493" />
+		<checkpoint coords="596, 450" />
+		<checkpoint coords="599, 482" />
+		<checkpoint coords="585, 505" />
+		<checkpoint coords="594, 531" />
+		<checkpoint coords="579, 548" />
+		<checkpoint coords="595, 573" />
+		<checkpoint coords="635, 553" />
+		<checkpoint coords="637, 535" />
+		<checkpoint coords="689, 521" />
+		<checkpoint coords="730, 539" />
+		<checkpoint coords="745, 576" />
+		<checkpoint coords="753, 596" />
+		<checkpoint coords="785, 550" />
+		<checkpoint coords="864, 616" />
+		<checkpoint coords="875, 606" />
+		<checkpoint coords="904, 619" />
+		<checkpoint coords="922, 626" />
+		<checkpoint coords="907, 656" />
+		<checkpoint coords="928, 674" />
+		<checkpoint coords="934, 654" />
+		<checkpoint coords="957, 659" />
+		<checkpoint coords="951, 709" />
+		<checkpoint coords="993, 730" />
+		<checkpoint coords="953, 765" />
+		<checkpoint coords="975, 795" />
+		<checkpoint coords="958, 799" />
+		<checkpoint coords="978, 823" />
+		<checkpoint coords="911, 791" />
+		<checkpoint coords="960, 847" />
+		<checkpoint coords="950, 876" />
+		<checkpoint coords="973, 867" />
+		<checkpoint coords="969, 886" />
+		<checkpoint coords="994, 887" />
+		<checkpoint coords="1004, 918" />
+		<checkpoint coords="1048, 942" />
+		<checkpoint coords="1048, 997" />
+		<checkpoint coords="1104, 952" />
+		<checkpoint coords="1110, 927" />
+		<checkpoint coords="1149, 928" />
+		<checkpoint coords="1166, 909" />
+		<checkpoint coords="1197, 902" />
+		<checkpoint coords="1200, 928" />
+		<checkpoint coords="1210, 907" />
+		<checkpoint coords="1261, 892" />
+		<checkpoint coords="1280, 852" />
+		<checkpoint coords="1293, 863" />
+		<checkpoint coords="1327, 859" />
+		<checkpoint coords="1395, 933" />
+		<checkpoint coords="1423, 940" />
+		<checkpoint coords="1428, 1003" />
+		<checkpoint coords="1489, 1019" />
+		<checkpoint coords="1497, 1049" />
+		<checkpoint coords="1481, 1068" />
+		<checkpoint coords="1491, 1065" />
+		<checkpoint coords="1485, 1094" />
+		<checkpoint coords="1509, 1114" />
+		<checkpoint coords="1505, 1131" />
+		<checkpoint coords="1593, 1147" />
+		<checkpoint coords="1607, 1168" />
+		<checkpoint coords="1644, 1187" />
+		<checkpoint coords="1679, 1166" />
+		<checkpoint coords="1683, 1112" />
+		<checkpoint coords="1704, 1120" />
+		<checkpoint coords="1757, 1094" />
+		<checkpoint coords="1805, 1125" />
+		<checkpoint coords="1846, 1126" />
+		<checkpoint coords="1868, 1187" />
+		<checkpoint coords="1893, 1199" />
+		<checkpoint coords="1857, 1249" />
+		<checkpoint coords="1896, 1282" />
+		<checkpoint coords="1974, 1237" />
+		<checkpoint coords="2058, 1228" />
+		<checkpoint coords="2066, 1214" />
+		<checkpoint coords="2100, 1228" />
+		<checkpoint coords="2102, 1252" />
+		<checkpoint coords="2129, 1255" />
+		<checkpoint coords="2151, 1311" />
+		<checkpoint coords="2172, 1301" />
+		<checkpoint coords="2191, 1308" />
+		<checkpoint coords="2192, 1284" />
+		<checkpoint coords="2251, 1294" />
+		<checkpoint coords="2289, 1279" />
+		<checkpoint coords="2299, 1301" />
+		<checkpoint coords="2344, 1305" />
+		<checkpoint coords="2357, 1288" />
+		<checkpoint coords="2385, 1306" />
+		<checkpoint coords="2376, 1252" />
+		<checkpoint coords="2448, 1241" />
+		<checkpoint coords="2464, 1227" />
+		<checkpoint coords="2478, 1245" />
+		<checkpoint coords="2492, 1239" />
+		<checkpoint coords="2482, 1304" />
+		<checkpoint coords="2538, 1323" />
+		<checkpoint coords="2578, 1299" />
+		<checkpoint coords="2588, 1272" />
+		<checkpoint coords="2618, 1272" />
+		<checkpoint coords="2608, 1241" />
+		<checkpoint coords="2626, 1186" />
+		
+	</race>
+	
+</level>

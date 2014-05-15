@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<level
+	name="Mountain Pass"
+	comment="Don't fall off the cliffs!"
+	author="Matthias Keysermann"
+	randomseed="1000"
+	>
+	
+	<terrain
+		heightmap="heightmap.png"
+		colormap="colormap.jpg"
+		foliagemap="foliagemap.png"
+		hudmap="colormap.jpg"
+		tilesize="32"
+		horizontalscale="2.0"
+		verticalscale="0.4"
+		>
+		
+		<foliageband
+			middle="0.7"
+			range="0.3"
+			density="0.0001"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="3"
+			/>
+
+		<foliageband
+			middle="0.7"
+			range="0.3"
+			density="0.0001"
+			sprite="/textures/veg/palmy.png"
+			spritecount="3"
+			/>
+		
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/overcast.jpg"
+		cloudscrollrate="0.04"
+		fogcolor="0.7, 0.6, 0.5"
+		fogdensity="0.005"
+		fogdensitysky="0.008"
+		rain="84.0"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="2.0, -2.0"
+		targettime="201.32">
+		
+		<startposition pos="485, 85, 2.0" oridegrees="70" />
+
+		<checkpoint coords="106, 185" />
+		<checkpoint coords="215, 485" />
+		<checkpoint coords="172, 320" />
+		<checkpoint coords="240, 360" />
+		<checkpoint coords="263, 228" />
+		<checkpoint coords="445, 375" />
+		<checkpoint coords="360, 254" />
+		
+	</race>
+	
+</level>

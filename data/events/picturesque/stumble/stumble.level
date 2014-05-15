@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<level 
+	name="Stumble"
+	comment="Expect bumps!"
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		foliagemap="f.png"
+		hudmap="c.png"
+		tilesize="32"
+		horizontalscale="2"
+		verticalscale="0.1"
+		>
+		
+		<foliageband
+			middle="0.55"
+			range="0.45"
+			density="0.0005"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+		
+		<foliageband
+			middle="0.75"
+			range="0.25"
+			density="0.000008"
+			sprite="/textures/veg/cactus1.png"
+			spritecount="2"
+			/>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/stormy.jpg"
+		cloudscrollrate="0.01"
+		fogcolor="0.03, 0.01, 0.1"
+		fogdensity="0.008"
+		fogdensitysky="0.7"
+		/>
+	
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	
+	<race coordscale="2, 2" targettime="273.0">
+		
+		<startposition pos="333, 1" oridegrees="0" />
+		<checkpoint coords="413, 206" />
+		<checkpoint coords="489, 359" />
+		<checkpoint coords="386, 470" />
+		<checkpoint coords="267, 361" />
+		<checkpoint coords="407, 365" />
+		<checkpoint coords="327, 288" />
+		<checkpoint coords="248, 226" />
+		<checkpoint coords="323, 171" />
+		<checkpoint coords="288, 91" />
+		<checkpoint coords="126, 22" />
+		<checkpoint coords="210, 131" />
+		<checkpoint coords="174, 336" />
+		<checkpoint coords="212, 430" />
+		<checkpoint coords="145, 392" />
+		<checkpoint coords="82, 413" />
+		<checkpoint coords="67, 338" />
+		<checkpoint coords="112, 321" />
+		<checkpoint coords="86, 254" />
+		<checkpoint coords="124, 108" />
+		<checkpoint coords="40, 74" />
+		<checkpoint coords="28, 445" />
+		<checkpoint coords="333, 511" />
+		
+	</race>
+	
+</level>

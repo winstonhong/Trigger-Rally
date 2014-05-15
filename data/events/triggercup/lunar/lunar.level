@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<level
+	name="Far far away"
+	comment="Quick! Gotta catch the rocket home!"
+	author="Richard Langridge"
+	randomseed="1000"
+	>
+	
+	<terrain
+		heightmap="heightmap.png"
+		colormap="colormap.jpg"
+		foliagemap="foliagemap.png"
+		hudmap="colormap.jpg"
+		tilesize="16"
+		horizontalscale="3.0"
+		verticalscale="0.10"
+		>
+		
+		<foliageband
+			middle="0.7"
+			range="0.4"
+			density="0.0002"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+		
+		<foliageband
+			middle="1.0"
+			range="0.3"
+			density="0.0001"
+			sprite="/textures/veg/palmy.png"
+			spritecount="3"
+			/>
+		
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/stars.jpg"
+		cloudscrollrate="0.0"
+		fogcolor="0.3, 0.0, 1.0"
+		fogdensity="0.002"
+		fogdensitysky="0.1"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	
+	<race coordscale="3.0, -3.0"
+		targettime="100.0">
+		
+		<startposition pos="426, 35, 2.0" oridegrees="180" />
+		
+		<checkpoint coords="426, 35" />
+		<checkpoint coords="342, 94" />
+		<checkpoint coords="395, 290" />
+		<checkpoint coords="350, 225" />
+		<checkpoint coords="309, 287" />
+		<checkpoint coords="276, 221" />
+		<checkpoint coords="256, 359" />
+		<checkpoint coords="350, 395" />
+		
+	</race>
+	
+</level>

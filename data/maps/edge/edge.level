@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<level 
+	name="Edge"
+	comment="You don't want to go off-road."
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		foliagemap="f.png"
+		hudmap="m.png"
+		tilesize="32"
+		horizontalscale="3"
+		verticalscale="0.3"
+		>
+		
+		<foliageband
+			middle="0.6"
+			range="0.4"
+			density="0.0003"
+			sprite="/textures/veg/bush-dry.png"
+			spritecount="2"
+			/>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/dark-blue.png"
+		cloudscrollrate="0.001"
+		fogcolor="0.3, 0.3, 0.25"
+		fogdensity="0.004"
+		fogdensitysky="0.8"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="3, 3"
+		targettime="372">
+		
+		<startposition pos="8, 148" oridegrees="340" />
+		<checkpoint coords="32, 215" />
+		<checkpoint coords="60, 172" />
+		<checkpoint coords="100, 198" />
+		<checkpoint coords="113, 64" />
+		<checkpoint coords="66, 69" />
+		<checkpoint coords="68, 29" />
+		<checkpoint coords="184, 40" />
+		<checkpoint coords="204, 74" />
+		<checkpoint coords="214, 41" />
+		<checkpoint coords="413, 65" />
+		<checkpoint coords="442, 211" />
+		<checkpoint coords="423, 188" />
+		<checkpoint coords="321, 168" />
+		<checkpoint coords="237, 205" />
+		<checkpoint coords="246, 311" />
+		<checkpoint coords="146, 259" />
+		<checkpoint coords="120, 373" />
+		<checkpoint coords="288, 405" />
+		<checkpoint coords="318, 355" />
+		<checkpoint coords="375, 404" />
+		<checkpoint coords="408, 416" />
+		<checkpoint coords="314, 473" />
+		<checkpoint coords="490, 451" />
+		<checkpoint coords="451, 364" />
+		<checkpoint coords="482, 274" />
+		<checkpoint coords="506, 217" />
+		<checkpoint coords="484, 179" />
+		<checkpoint coords="512, 140" />
+		<checkpoint coords="526, 164" />
+	</race>
+	
+</level>

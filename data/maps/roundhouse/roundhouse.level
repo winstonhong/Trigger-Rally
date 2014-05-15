@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<level 
+	name="Roundhouse kicks"
+	comment="Are you smart as Chuck Norris ?"
+	author="Agnius Vasiliauskas"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="roundhouse-h.jpg"
+		colormap="roundhouse-c.jpg"
+		foliagemap="roundhouse-f.jpg"
+		hudmap="roundhouse-c.jpg"
+		tilesize="16"
+		horizontalscale="4.0"
+		verticalscale="0.15"
+		>
+		
+		<foliageband
+			middle="0.7"
+			range="0.4"
+			density="0.00002"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+
+		<foliageband
+			middle="0.5"
+			range="0.5"
+			density="0.000002"
+			sprite="/textures/veg/cactus1.png"
+			spritecount="1"
+			/>
+		
+		
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/blue.jpg"
+		cloudscrollrate="0.003"
+		fogcolor="0.9, 0.95, 1.0"
+		fogdensity="0.01"
+		fogdensitysky="0.8"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	
+	<race coordscale="4.0, -4.0"
+		targettime="130.0">
+		
+		<startposition pos="252, 216, 2.0" oridegrees="90" />
+		
+		<checkpoint coords="234, 220" />
+		<checkpoint coords="215, 242" />
+		<checkpoint coords="226, 286" />
+		<checkpoint coords="270, 291" />
+		<checkpoint coords="239, 230" />
+		<checkpoint coords="225, 264" />
+		<checkpoint coords="260, 283" />
+		<checkpoint coords="269, 242" />
+		<checkpoint coords="236, 250" />
+		<checkpoint coords="263, 268" />
+		<checkpoint coords="255, 261" />
+		
+	</race>
+	
+</level>

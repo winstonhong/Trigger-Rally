@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<level
+	name="Warm Up"
+	comment="Take it easy on your first drive"
+	author="Richard Langridge"
+	randomseed="1000"
+	>
+	
+	<terrain
+		heightmap="heightmap.png"
+		colormap="colormap.jpg"
+		foliagemap="foliagemap.png"
+		hudmap="colormap.jpg"
+		tilesize="16"
+		horizontalscale="3.0"
+		verticalscale="0.10"
+		>
+		
+		<foliageband
+			middle="0.7"
+			range="0.4"
+			density="0.0002"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+		
+		<foliageband
+			middle="1.0"
+			range="0.3"
+			density="0.0001"
+			sprite="/textures/veg/palmy.png"
+			spritecount="3"
+			/>
+		
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/blue.jpg"
+		cloudscrollrate="0.003"
+		fogcolor="0.9, 0.95, 1.0"
+		fogdensity="0.01"
+		fogdensitysky="0.8"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	
+	<race coordscale="3.0, -3.0"
+		targettime="85.0">
+		
+		<startposition pos="148, 100, 2.0" oridegrees="180" />
+		
+		<checkpoint coords="148, 100" />
+		<checkpoint coords="182, 162" />
+		<checkpoint coords="241, 137" />
+		<checkpoint coords="342, 194" />
+		<checkpoint coords="287, 249" />
+		
+	</race>
+	
+</level>

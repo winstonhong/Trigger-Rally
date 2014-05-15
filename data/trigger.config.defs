@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<config>
+	
+	<video
+		width="800"
+		height="600"
+		bpp="0"
+		
+		fullscreen="no"
+		
+		requirergb="no"
+		requirealpha="no"
+		requiredepth="yes"
+		requirestencil="no"
+		
+		stereo="none"
+		stereoeyeseparation="0.07"
+		stereoswapeyes="no"
+		/>
+		<!-- Possible values for stereo:
+			none
+			quadbuffer - use hardware stereo support
+			red-blue - anaglyph
+			red-green - anaglyph
+			red-cyan - anaglyph
+			yellow-blue - anaglyph
+		-->
+	
+	<parameters
+		drivingassist="0.15"		
+		enablesound="yes"
+        speedunit="mph"
+        speedstyle="analogue"
+		/>
+      <!-- Possible values for speedunit:
+           kph - Kilometres per hour
+           mph - Miles per hour
+
+           Possible values for speedstyle:
+           analogue - A dial showing speed
+           hybrid - The analogue dial with digital speed as well
+
+      -->
+	
+	<controls>
+		
+		<keyboard enable="yes">
+			<key action="forward" code="273" />
+			<key action="back" code="274" />
+			<key action="left" code="276" />
+			<key action="right" code="275" />
+			<key action="handbrake" code="32" />
+			
+			<key action="recover" code="114" />
+			
+			<key action="cammode" code="99" />
+			<key action="camleft" code="44" />
+			<key action="camright" code="46" />
+			
+			<key action="showmap" code="109" />
+		</keyboard>
+		
+		<!-- Typical joystick or wheel & pedals configuration -->
+		
+		<joystick enable="no">
+			<axis action="forward" index="1" direction="+" deadzone="0.10" maxrange="1.00" />
+			<axis action="back" index="1" direction="-" deadzone="0.10" maxrange="1.00" />
+			
+			<axis action="right" index="0" direction="+" deadzone="0.10" maxrange="1.00" />
+			<axis action="left" index="0" direction="-" deadzone="0.10" maxrange="1.00" />
+			
+			<button action="handbrake" index="0" />
+		</joystick>
+		
+		<!-- Typical joypad configuration -->
+		
+		<joystick enable="no">
+			<button action="forward" index="0" />
+			<button action="back" index="1" />
+			
+			<axis action="right" index="0" direction="+" deadzone="0.10" maxrange="1.00" />
+			<axis action="left" index="0" direction="-" deadzone="0.10" maxrange="1.00" />
+			
+			<button action="handbrake" index="2" />
+		</joystick>
+	</controls>
+	
+</config>

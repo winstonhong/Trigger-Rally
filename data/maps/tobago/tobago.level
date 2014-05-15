@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<level
+	name="Tobago"
+	comment="Safari in the Caribbean"
+	author="Andreas Rosdal"
+	randomseed="1000"
+	>
+	
+	<terrain
+		heightmap="heightmap.png"
+		colormap="colormap.jpg"
+		foliagemap="foliagemap.png"
+		hudmap="colormap.jpg"
+		tilesize="16"
+		horizontalscale="3.0"
+		verticalscale="0.24"
+		>
+		
+		<foliageband
+			middle="0.1"
+			range="0.1"
+			density="0.0001"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+		
+		<foliageband
+			middle="0.1"
+			range="0.1"
+			density="0.0001"
+			sprite="/textures/veg/palmy.png"
+			spritecount="3"
+			/>
+		
+	</terrain>
+	
+	<weather
+		cloudtexture="sky.jpg"
+		cloudscrollrate="0.003"
+		fogcolor="0.9, 1.0, 1.0"
+		fogdensity="0.002"
+		fogdensitysky="0.8"
+		/>
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="3.0, -3.0"
+		targettime="195.0">
+		
+		<startposition pos="110, 192, 2.0" oridegrees="0" />
+		
+		<checkpoint coords="221, 115" />
+		<checkpoint coords="362, 74" />
+		<checkpoint coords="287, 253" />
+		<checkpoint coords="444, 200" />
+		<checkpoint coords="480, 340" />
+		<checkpoint coords="350, 466" />
+		<checkpoint coords="300, 360" />
+		<checkpoint coords="151, 415" />
+		<checkpoint coords="60, 290" />
+		<checkpoint coords="110, 192" />
+		
+	</race>
+	
+</level>

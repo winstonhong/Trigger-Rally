@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<level 
+	name="Forsaken Path"
+	comment=""
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		foliagemap="f.png"
+		hudmap="c.png"
+		tilesize="32"
+		horizontalscale="2.5"
+		verticalscale="0.2"
+		>
+		
+		<foliageband
+			middle="0.65"
+			range="0.35"
+			density="0.00025"
+			sprite="/textures/veg/bush-dry.png"
+			spritecount="2"
+			/>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/stars.jpg"
+		cloudscrollrate="0"
+		fogcolor="0, 0, 0"
+		fogdensity="0.015"
+		fogdensitysky="0.8"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="2.5, 2.5"
+		targettime="262">
+		
+		<startposition pos="371, 4" oridegrees="357" />
+		<checkpoint coords="243, 55" />
+		<checkpoint coords="166, 22" />
+		<checkpoint coords="48, 131" />
+		<checkpoint coords="99, 253" />
+		<checkpoint coords="130, 154" />
+		<checkpoint coords="439, 100" />
+		<checkpoint coords="350, 148" />
+		<checkpoint coords="306, 209" />
+		<checkpoint coords="256, 171" />
+		<checkpoint coords="184, 298" />
+		<checkpoint coords="314, 297" />
+		<checkpoint coords="469, 212" />
+		<checkpoint coords="452, 294" />
+		<checkpoint coords="453, 386" />
+		<checkpoint coords="389, 353" />
+		<checkpoint coords="49, 322" />
+		<checkpoint coords="119, 443" />
+		<checkpoint coords="356, 420" />
+		<checkpoint coords="372, 511" />
+	</race>
+	
+</level>

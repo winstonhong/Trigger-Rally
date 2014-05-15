@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<level 
+	name="Mud"
+	comment="Short but dirty."
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		foliagemap="f.png"
+		hudmap="m.png"
+		tilesize="32"
+		horizontalscale="4"
+		verticalscale="0.12"
+		>
+		
+		<foliageband
+			middle="0.6"
+			range="0.4"
+			density="0.002"
+			sprite="/textures/veg/grass.png"
+			spritecount="1"
+			/>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/overcast.jpg"
+		cloudscrollrate="0.001"
+		fogcolor="0.18, 0.15, 0.2"
+		fogdensity="0.007"
+		fogdensitysky="0.6"
+		rain="200"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="4, 4"
+		targettime="157">
+		
+		<startposition pos="134, 163" oridegrees="0" />
+		<checkpoint coords="167, 180" />
+		<checkpoint coords="227, 157" />
+		<checkpoint coords="223, 236" />
+		<checkpoint coords="203, 208" />
+		<checkpoint coords="127, 234" />
+		<checkpoint coords="119, 196" />
+		<checkpoint coords="33, 209" />
+		<checkpoint coords="43, 57" />
+		<checkpoint coords="108, 32" />
+		<checkpoint coords="135, 50" />
+		<checkpoint coords="208, 18" />
+		<checkpoint coords="167, 88" />
+		<checkpoint coords="117, 103" />
+		<checkpoint coords="132, 149" />
+		
+	</race>
+	
+</level>

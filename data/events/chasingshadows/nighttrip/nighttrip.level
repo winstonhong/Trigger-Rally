@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<level 
+	name="Night Trip"
+	comment=""
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		foliagemap="f.png"
+		hudmap="c.png"
+		tilesize="32"
+		horizontalscale="3"
+		verticalscale="0.08"
+		>
+		
+		<foliageband
+			middle="0.3"
+			range="0.03"
+			density="0.00025"
+			sprite="post.png"
+			spritecount="2"
+			/>
+		
+		<foliageband
+			middle="0.8"
+			range="0.2"
+			density="0.0003"
+			sprite="/textures/veg/bush.png"
+			spritecount="2"
+			/>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/stars.jpg"
+		cloudscrollrate="0"
+		fogcolor="0, 0, 0"
+		fogdensity="0.015"
+		fogdensitysky="0.8"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="3, 3"
+		targettime="282">
+		
+		<startposition pos="71, 2" oridegrees="357" />
+		<checkpoint coords="108, 104" />
+		<checkpoint coords="200, 24" />
+		<checkpoint coords="239, 144" />
+		<checkpoint coords="367, 69" />
+		<checkpoint coords="450, 60" />
+		<checkpoint coords="453, 157" />
+		<checkpoint coords="340, 167" />
+		<checkpoint coords="252, 208" />
+		<checkpoint coords="159, 182" />
+		<checkpoint coords="34, 205" />
+		<checkpoint coords="95, 288" />
+		<checkpoint coords="158, 315" />
+		<checkpoint coords="285, 284" />
+		<checkpoint coords="471, 221" />
+		<checkpoint coords="406, 303" />
+		<checkpoint coords="419, 454" />
+		<checkpoint coords="275, 364" />
+		<checkpoint coords="175, 457" />
+		<checkpoint coords="68, 355" />
+		<checkpoint coords="73, 511" />
+	</race>
+	
+</level>

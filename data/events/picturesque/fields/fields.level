@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<level 
+	name="Fields"
+	comment="Don't destroy the wheat!"
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		foliagemap="f.png"
+		hudmap="c.png"
+		tilesize="32"
+		horizontalscale="3"
+		verticalscale="0.1"
+		>
+		
+		<foliageband
+			middle="0.55"
+			range="0.35"
+			density="0.0012"
+			sprite="/textures/veg/grain.png"
+			spritecount="1"
+			/>
+		
+		<foliageband
+			middle="0.6"
+			range="0.01"
+			density="0.001"
+			sprite="/textures/veg/bush.png"
+			spritecount="2"
+			/>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/overcast.jpg"
+		cloudscrollrate="0.01"
+		fogcolor="0.37, 0.41, 0.47"
+		fogdensity="0.012"
+		fogdensitysky="0.3"
+		rain="2100"
+		/>
+	
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	
+	<race coordscale="3, 3" targettime="323">
+		
+		<startposition pos="393, 3" oridegrees="0" />
+		<checkpoint coords="394, 67" />
+		<checkpoint coords="127, 65" />
+		<checkpoint coords="29, 86" />
+		<checkpoint coords="247, 174" />
+		<checkpoint coords="374, 272" />
+		<checkpoint coords="375, 138" />
+		<checkpoint coords="465, 117" />
+		<checkpoint coords="430, 181" />
+		<checkpoint coords="475, 233" />
+		<checkpoint coords="456, 304" />
+		<checkpoint coords="232, 326" />
+		<checkpoint coords="226, 284" />
+		<checkpoint coords="221, 237" />
+		<checkpoint coords="102, 195" />
+		<checkpoint coords="63, 259" />
+		<checkpoint coords="63, 346" />
+		<checkpoint coords="218, 459" />
+		<checkpoint coords="317, 439" />
+		<checkpoint coords="400, 476" />
+		<checkpoint coords="405, 570" />
+		
+	</race>
+	
+</level>

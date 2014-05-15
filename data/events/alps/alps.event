@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<event name="Alps' Trophy" author="Onsemeliot">
+	
+	<level file="maze/maze.level" />
+	<level file="rocky/rocky.level" />
+	<level file="green/green.level" />
+	<level file="mountain/mountain.level" />
+	<level file="lake/lake.level" />
+	<level file="forest/forest.level" />
+	<level file="dawn/dawn.level" />
+	
+</event>

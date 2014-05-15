@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<level
+	name="Old Macdonald"
+	comment="Git offa my land!"
+	author="Richard Langridge"
+	randomseed="1000"
+	>
+	
+	<terrain
+		heightmap="heightmap.png"
+		colormap="colormap.jpg"
+		foliagemap="foliagemap.png"
+		hudmap="colormap.jpg"
+		tilesize="16"
+		horizontalscale="2.0"
+		verticalscale="0.05"
+		>
+		
+		<foliageband
+			middle="0.7"
+			range="0.4"
+			density="0.0005"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+		
+		
+		
+	</terrain>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="2.0, -2.0"
+		targettime="110.0">
+		
+		<startposition pos="453, 57, 2.0" ori="0, 0, 0, 1" />
+		
+		<checkpoint coords="401, 164" />
+		<checkpoint coords="354, 76" />
+		<checkpoint coords="52, 95" />
+		<checkpoint coords="91, 165" />
+		<checkpoint coords="259, 171" />
+		<checkpoint coords="411, 184" />
+		<checkpoint coords="481, 229" />
+		<checkpoint coords="470, 422" />
+		<checkpoint coords="369, 465" />
+		
+	</race>
+	
+</level>

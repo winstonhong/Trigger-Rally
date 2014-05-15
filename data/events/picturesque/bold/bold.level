@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<level 
+	name="Bold"
+	comment="Get over it!"
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		foliagemap="f.png"
+		hudmap="c.png"
+		tilesize="64"
+		horizontalscale="2.7"
+		verticalscale="0.25"
+		>
+		
+		<foliageband
+			middle="0.7"
+			range="0.3"
+			density="0.0012"
+			sprite="/textures/veg/bush-dry.png"
+			spritecount="2"
+			/>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/cloudy.png"
+		cloudscrollrate="0.01"
+		fogcolor="0.6, 0.3, 0.2"
+		fogdensity="0.0035"
+		fogdensitysky="0.9"
+		/>
+	
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	
+	<race coordscale="1.35, 1.35" targettime="271">
+		
+		<startposition pos="195, 1" oridegrees="330" />
+		<checkpoint coords="424, 158" />
+		<checkpoint coords="487, 286" />
+		<checkpoint coords="611, 355" />
+		<checkpoint coords="472, 485" />
+		<checkpoint coords="437, 645" />
+		<checkpoint coords="472, 734" />
+		<checkpoint coords="714, 851" />
+		<checkpoint coords="728, 758" />
+		<checkpoint coords="877, 673" />
+		<checkpoint coords="866, 606" />
+		<checkpoint coords="819, 437" />
+		<checkpoint coords="775, 355" />
+		<checkpoint coords="818, 283" />
+		<checkpoint coords="773, 186" />
+		<checkpoint coords="778, 138" />
+		<checkpoint coords="732, 91" />
+		<checkpoint coords="803, 30" />
+		<checkpoint coords="682, 43" />
+		<checkpoint coords="459, 169" />
+		<checkpoint coords="273, 255" />
+		<checkpoint coords="297, 507" />
+		<checkpoint coords="243, 628" />
+		<checkpoint coords="195, 567" />
+		<checkpoint coords="158, 528" />
+		<checkpoint coords="188, 452" />
+		<checkpoint coords="117, 374" />
+		<checkpoint coords="59, 493" />
+		<checkpoint coords="113, 771" />
+		<checkpoint coords="89, 896" />
+		<checkpoint coords="195, 1023" />
+		
+	</race>
+	
+</level>

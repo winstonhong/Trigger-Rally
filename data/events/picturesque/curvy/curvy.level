@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<level 
+	name="Curvy"
+	comment="Skip all to winded detours!"
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		foliagemap="f.png"
+		hudmap="c.png"
+		tilesize="64"
+		horizontalscale="4"
+		verticalscale="0.3"
+		>
+		
+		<foliageband
+			middle="0.53"
+			range="0.45"
+			density="0.0009"
+			sprite="/textures/veg/bush.png"
+			spritecount="1"
+			/>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/overcast-blue.jpg"
+		cloudscrollrate="0.01"
+		fogcolor="0.02, 0.015, 0.01"
+		fogdensity="0.0035"
+		fogdensitysky="0.5"
+		/>
+	
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	
+	<race coordscale="2, 2" targettime="297.0">
+		
+		<startposition pos="261, 1" oridegrees="0" />
+		<checkpoint coords="324, 172" />
+		<checkpoint coords="837, 206" />
+		<checkpoint coords="650, 338" />
+		<checkpoint coords="146, 609" />
+		<checkpoint coords="537, 987" />
+		<checkpoint coords="390, 952" />
+		<checkpoint coords="261, 1020" />
+		
+	</race>
+	
+</level>

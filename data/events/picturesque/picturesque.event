@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<event name="Picturesque Tournament" author="Onsemeliot">
+	
+	<level file="fields/fields.level" />
+	<level file="canyon/canyon.level" />
+	<level file="plateau/plateau.level" />
+	<level file="stumble/stumble.level" />
+	<level file="curvy/curvy.level" />
+	<level file="scottish/scottish.level" />
+	<level file="riddle/riddle.level" />
+	<level file="bold/bold.level" />
+	<level file="faster/faster.level" />
+	
+</event>

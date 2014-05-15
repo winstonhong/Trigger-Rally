@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<level
+	name="Evening Lake"
+	comment="Sunset rush"
+	author="Onsemeliot"
+	randomseed="1000"
+	>
+	
+	<terrain
+		heightmap="heightmap.png"
+		colormap="colormap.jpg"
+		foliagemap="foliagemap.png"
+		hudmap="colormap.jpg"
+		tilesize="32"
+		horizontalscale="2.5"
+		verticalscale="0.22"
+		>
+		
+		<foliageband
+			middle="0.6"
+			range="0.5"
+			density="0.0004"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+		
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/overcast.jpg"
+		cloudscrollrate="0.005"
+		fogcolor="0.2, 0.1, 0.0"
+		fogdensity="0.02"
+		fogdensitysky="1"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	
+	<race coordscale="2.5, 2.5" targettime="260.0">
+		
+		<startposition pos="53, 96" oridegrees="180" />
+		<checkpoint coords="186, 201" />
+		<checkpoint coords="217, 60" />
+		<checkpoint coords="430, 133" />
+		<checkpoint coords="455, 436" />
+		<checkpoint coords="408, 360" />
+		<checkpoint coords="360, 467" />
+		<checkpoint coords="195, 445" />
+		<checkpoint coords="73, 448" />
+		<checkpoint coords="55, 120" />
+		
+	</race>
+	
+</level>

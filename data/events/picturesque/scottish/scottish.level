@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<level 
+	name="Scottish"
+	comment="Anticipate the road ahead!"
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		hudmap="m.png"
+		tilesize="64"
+		horizontalscale="3"
+		verticalscale="0.2"
+		>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/overcast.jpg"
+		cloudscrollrate="0.01"
+		fogcolor="0.4, 0.4, 0.4"
+		fogdensity="0.01"
+		fogdensitysky="0.2"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="3, 3" targettime="277.0">
+		
+		<startposition pos="483, 430" oridegrees="185" />
+		<checkpoint coords="466, 362" />
+		<checkpoint coords="415, 418" />
+		<checkpoint coords="375, 379" />
+		<checkpoint coords="353, 315" />
+		<checkpoint coords="211, 315" />
+		<checkpoint coords="206, 226" />
+		<checkpoint coords="279, 209" />
+		<checkpoint coords="283, 159" />
+		<checkpoint coords="347, 183" />
+		<checkpoint coords="425, 225" />
+		<checkpoint coords="493, 167" />
+		<checkpoint coords="431, 44" />
+		<checkpoint coords="381, 93" />
+		<checkpoint coords="337, 36" />
+		<checkpoint coords="261, 49" />
+		<checkpoint coords="207, 17" />
+		<checkpoint coords="47, 76" />
+		<checkpoint coords="119, 332" />
+		<checkpoint coords="90, 426" />
+		<checkpoint coords="193, 450" />
+		<checkpoint coords="356, 476" />
+		<checkpoint coords="483, 430" />
+		
+	</race>
+	
+</level>

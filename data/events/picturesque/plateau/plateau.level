@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<level 
+	name="Plateau"
+	comment="Careful driving pays off."
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		foliagemap="f.png"
+		hudmap="m.png"
+		tilesize="64"
+		horizontalscale="3.2"
+		verticalscale="0.22"
+		>
+		
+		<foliageband
+			middle="0.94"
+			range="0.05"
+			density="0.0015"
+			sprite="/textures/veg/grass.png"
+			spritecount="1"
+			/>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/cloudy.png"
+		cloudscrollrate="0.01"
+		fogcolor="0.4, 0.5, 0.8"
+		fogdensity="0.002"
+		fogdensitysky="0.1"
+		/>
+	
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	
+	<race coordscale="3.2, 3.2" targettime="253">
+		
+		<startposition pos="513, 475" oridegrees="90" />
+		<checkpoint coords="465, 455" />
+		<checkpoint coords="429, 292" />
+		<checkpoint coords="316, 356" />
+		<checkpoint coords="306, 442" />
+		<checkpoint coords="232, 315" />
+		<checkpoint coords="208, 280" />
+		<checkpoint coords="231, 169" />
+		<checkpoint coords="334, 234" />
+		<checkpoint coords="402, 193" />
+		<checkpoint coords="397, 105" />
+		<checkpoint coords="413, 60" />
+		<checkpoint coords="360, 61" />
+		<checkpoint coords="301, 19" />
+		<checkpoint coords="282, 75" />
+		<checkpoint coords="167, 87" />
+		<checkpoint coords="52, 36" />
+		<checkpoint coords="89, 119" />
+		<checkpoint coords="132, 114" />
+		<checkpoint coords="153, 177" />
+		<checkpoint coords="76, 209" />
+		<checkpoint coords="120, 337" />
+		<checkpoint coords="1, 475" />
+		
+	</race>
+	
+</level>

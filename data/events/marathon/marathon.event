@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<event name="Marathon" author="Onsemeliot">
+	
+	<level file="marathon/marathon.level" />
+	<level file="marathon/midnight.level" />
+	<level file="marathon/beyond.level" />
+	<level file="marathon/wet.level" />
+	<level file="marathon/back.level" />
+	
+</event>

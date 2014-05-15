@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<level 
+	name="Lab Rally (bis)"
+	comment="Be quick as a rat! (Or can you beat 01:11.11?)"
+	author="Liviu Andronic"
+	randomseed="1337">
+	
+	<terrain
+		heightmap="labrally-h.png"
+		colormap="labrally-c.png"
+		foliagemap="labrally-f.png"
+		hudmap="labrally-c.png"
+		tilesize="16"
+		horizontalscale="4.0"
+		verticalscale="0.15"
+		>
+		
+		<foliageband
+			middle="0.7"
+			range="0.4"
+			density="0.00008"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/blue.jpg"
+		cloudscrollrate="0.003"
+		fogcolor="0.9, 0.95, 1.0"
+		fogdensity="0.002"
+		fogdensitysky="0.1"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="4.0, 4.0"
+		targettime="81.11">
+		
+		<startposition pos="236, 68, 2.0" oridegrees="0" />
+
+    <checkpoint coords="236,132" />
+    <checkpoint coords="212,132" />
+    <checkpoint coords="140,132" />
+    <checkpoint coords="212,132" />
+    <checkpoint coords="236,132" />
+    <checkpoint coords="236,68" />
+		
+	</race>
+	
+</level>

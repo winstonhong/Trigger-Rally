@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<event
+	name="Trigger Cup"
+	author="Richard Langridge"
+	>
+	
+	<level file="warmup/warmup.level" />
+	
+	<level file="desertstorm/storm.level" />
+	
+	<level file="lunar/lunar.level" />
+	
+	<level file="bigjump/jump.level" />
+	
+	<level file="monkeybusiness/monkey.level" />
+	
+	<level file="oldmacdonald/farm.level" />
+	
+</event>

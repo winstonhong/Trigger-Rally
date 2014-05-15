@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<vehicle
+	name="Seat Cordoba WRC"
+	type="car">
+	
+	<genparams
+		mass="1350.0"
+		dimensions="1.95, 3.68, 2.1"
+		wheelmodel="seat_wheel.ase"
+		wheelscale="0.034" />
+	
+	<ctrlparams
+		speedrate="8.7"
+		turnspeedrate="0.0, 0.0, 50.0" />
+	
+	<drivesystem>
+		<engine powerscale="6000">
+			<powerpoint rpm="2000" power="1.4" />
+			<powerpoint rpm="5000" power="2.5" />
+			<powerpoint rpm="8000" power="3.5" />
+			<powerpoint rpm="11000" power="4.1" />
+			<powerpoint rpm="12000" power="0.0" />
+		</engine>
+		
+		<gearbox>
+			<gear absolute="0.055" />
+			<gear relative="1.31" />
+			<gear relative="1.29" />
+			<gear relative="1.26" />
+			<gear relative="1.24" />
+			<gear relative="1.21" />
+		</gearbox>
+	</drivesystem>
+	
+	<part
+		name="body"
+		pos="0.0, 0.2, 0.1"
+		orientation="1.0, 0.0, 0.0, 0.0"
+		model="seat.ase"
+		scale="0.01">
+		
+		<wheel drive="0.71" steer="0.71" brake1="340.0" pos="0.63, 0.87, -0.22" radius="0.3" force="40000.0" dampening="20000.0" />
+		<wheel drive="0.71" steer="0.71" brake1="340.0" pos="-0.63, 0.87, -0.22" radius="0.3" force=40000.0" dampening="20000.0" />
+		<wheel drive="0.61" steer="0.0" brake1="350.0" pos="0.63, -1.27, -0.22" radius="0.3" force="40000.0" dampening="20000.0" brake2="500.0" />
+		<wheel drive="0.61" steer="0.0" brake1="350.0" pos="-0.63, -1.27, -0.22" radius="0.3" force="40000.0" dampening="20000.0" brake2="500.0" />
+		
+		<clip type="body" pos="1.0, 1.5, 1.0" force="600000.0" dampening="24000.0" />
+		<clip type="body" pos="-1.0, 1.5, 1.0" force="600000.0" dampening="24000.0" />
+		<clip type="body" pos="1.0, -1.0, 1.0" force="600000.0" dampening="23000.0" />
+		<clip type="body" pos="-1.0, -1.0, 1.0" force="600000.0" dampening="23000.0" />
+		
+	</part>
+	
+</vehicle>

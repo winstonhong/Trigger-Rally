@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<level 
+	name="Highland"
+	comment="Find the limit!"
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		foliagemap="f.png"
+		hudmap="c.png"
+		tilesize="32"
+		horizontalscale="4"
+		verticalscale="0.3"
+		>
+
+		<foliageband
+			middle="0.75"
+			range="0.4"
+			density="0.001"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/blue.jpg"
+		cloudscrollrate="0.01"
+		fogcolor="0.4, 0.4, 0.5"
+		fogdensity="0.002"
+		fogdensitysky="0.01"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="4, 4"
+		targettime="500.0">
+		
+		<startposition pos="482, 488" oridegrees="135" />
+		<checkpoint coords="416, 407" />
+		<checkpoint coords="331, 478" />
+		<checkpoint coords="450, 345" />
+		<checkpoint coords="340, 326" />
+		<checkpoint coords="219, 318" />
+		<checkpoint coords="190, 470" />
+		<checkpoint coords="132, 315" />
+		<checkpoint coords="154, 221" />
+		<checkpoint coords="74, 258" />
+		<checkpoint coords="80, 174" />
+		<checkpoint coords="80, 57" />
+		<checkpoint coords="89, 115" />
+		<checkpoint coords="187, 136" />
+		<checkpoint coords="327, 144" />
+		<checkpoint coords="275, 61" />
+		<checkpoint coords="339, 65" />
+		<checkpoint coords="439, 64" />
+		<checkpoint coords="435, 184" />
+		<checkpoint coords="420, 283" />
+		<checkpoint coords="351, 236" />
+		<checkpoint coords="212, 262" />
+		<checkpoint coords="322, 288" />
+		<checkpoint coords="230, 301" />
+		<checkpoint coords="293, 353" />
+		
+	</race>
+	
+</level>

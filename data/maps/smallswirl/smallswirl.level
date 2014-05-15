@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<level 
+	name="Smallswirl"
+	comment="A little swirl never did any harm."
+	author="Iwan 'qubodup' Gabovitch"
+	randomseed="1337">
+	
+	<terrain
+		heightmap="smallswirl-h.jpg"
+		colormap="smallswirl-c.jpg"
+		foliagemap="smallswirl-f.jpg"
+		hudmap="smallswirl-c.jpg"
+		tilesize="16"
+		horizontalscale="4.0"
+		verticalscale="0.15"
+		>
+		
+		<foliageband
+			middle="0.7"
+			range="0.4"
+			density="0.00008"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/blue.jpg"
+		cloudscrollrate="0.003"
+		fogcolor="0.9, 0.95, 1.0"
+		fogdensity="0.002"
+		fogdensitysky="0.1"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="4.0, 4.0"
+		targettime="142.22">
+		
+		<startposition pos="72, 72, 2.0" oridegrees="0" />
+
+    <checkpoint coords="80,116" />
+    <checkpoint coords="128,90" />
+    <checkpoint coords="92,80" />
+    <checkpoint coords="112,120" />
+    <checkpoint coords="162,100" />
+    <checkpoint coords="184,120" />
+    <checkpoint coords="144,140" />
+    <checkpoint coords="152,116" />
+    <checkpoint coords="180,140" />
+    <checkpoint coords="140,160" />
+    <checkpoint coords="108,132" />
+    <checkpoint coords="92,164" />
+    <checkpoint coords="80,136" />
+    <checkpoint coords="76,180" />
+    <checkpoint coords="112,180" />
+    <checkpoint coords="140,188" />
+    <checkpoint coords="160,168" />
+    <checkpoint coords="180,164" />
+		
+	</race>
+	
+</level>

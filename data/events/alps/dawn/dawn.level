@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<level
+	name="Dawn"
+	comment="A cold, but promising morning."
+	author="Onsemeliot"
+	randomseed="1000"
+	>
+	
+	<terrain
+		heightmap="heightmap.png"
+		colormap="colormap.jpg"
+		foliagemap="foliagemap.png"
+		hudmap="hud.png"
+		tilesize="32"
+		horizontalscale="3"
+		verticalscale="0.15"
+		>
+	</terrain>
+	
+	<weather
+		cloudtexture="morning.jpg"
+		cloudscrollrate="0.01"
+		fogcolor="0.1, 0.1, 0.4"
+		fogdensity="0.009"
+		fogdensitysky="0.7"
+		/>
+	
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	
+	<race coordscale="3, 3"
+		targettime="315.0">
+		
+		<startposition pos="400, 5" oridegrees="20" />
+
+		<checkpoint coords="352, 27" />
+		<checkpoint coords="296, 47" />
+		<checkpoint coords="217, 41" />
+		<checkpoint coords="247, 132" />
+		<checkpoint coords="150, 164" />
+		<checkpoint coords="91, 200" />
+		<checkpoint coords="157, 255" />
+		<checkpoint coords="233, 203" />
+		<checkpoint coords="331, 250" />
+		<checkpoint coords="397, 334" />
+		<checkpoint coords="272, 374" />
+		<checkpoint coords="269, 444" />
+		<checkpoint coords="184, 469" />
+		<checkpoint coords="78, 460" />
+		<checkpoint coords="145, 416" />
+		<checkpoint coords="114, 366" />
+		<checkpoint coords="76, 339" />
+		<checkpoint coords="90, 269" />
+		<checkpoint coords="134, 305" />
+		<checkpoint coords="167, 272" />
+		<checkpoint coords="239, 228" />
+		<checkpoint coords="316, 268" />
+		<checkpoint coords="230, 326" />
+		<checkpoint coords="308, 356" />
+		<checkpoint coords="354, 313" />
+		<checkpoint coords="348, 358" />
+		<checkpoint coords="304, 438" />
+		<checkpoint coords="402, 500" />
+		
+	</race>
+	
+</level>

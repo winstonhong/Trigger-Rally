@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<level 
+	name="Stoned"
+	comment="Don't get too high!"
+	author="Onsemeliot"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="h.png"
+		colormap="c.png"
+		foliagemap="f.png"
+		hudmap="c.png"
+		tilesize="32"
+		horizontalscale="2.7"
+		verticalscale="0.15"
+		>
+		
+		<foliageband
+			middle="0.65"
+			range="0.2"
+			density="0.0004"
+			sprite="/textures/veg/grass-sprite.png"
+			spritecount="1"
+			/>
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/blue.jpg"
+		cloudscrollrate="0.001"
+		fogcolor="0.4, 0.4, 0.45"
+		fogdensity="0.003"
+		fogdensitysky="0.05"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	
+	<race coordscale="2.7, 2.7"
+		targettime="230.0">
+		
+		<startposition pos="37, 478" oridegrees="230" />
+		<checkpoint coords="160, 396" />
+		<checkpoint coords="224, 321" />
+		<checkpoint coords="283, 387" />
+		<checkpoint coords="407, 375" />
+		<checkpoint coords="302, 273" />
+		<checkpoint coords="102, 288" />
+		<checkpoint coords="72, 200" />
+		<checkpoint coords="116, 234" />
+		<checkpoint coords="165, 249" />
+		<checkpoint coords="110, 96" />
+		<checkpoint coords="214, 198" />
+		<checkpoint coords="314, 197" />
+		<checkpoint coords="330, 233" />
+		<checkpoint coords="379, 239" />
+		<checkpoint coords="430, 205" />
+		<checkpoint coords="250, 94" />
+		<checkpoint coords="413, 37" />
+		<checkpoint coords="471, 44" />
+		
+	</race>
+	
+</level>

@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<level 
+	name="Tea in the Sahara"
+	comment="Go faster than the camel"
+	author="David PAGNIER"
+	randomseed="1000">
+	
+	<terrain
+		heightmap="level7-h.png"
+		colormap="level7-c.jpg"
+		foliagemap="level7-f.png"
+		hudmap="level7-c.jpg"
+		tilesize="16"
+		horizontalscale="4.0"
+		verticalscale="0.15"
+		>
+		
+		<foliageband
+			middle="0.5"
+			range="0.5"
+			density="0.000002"
+			sprite="/textures/veg/cactus1.png"
+			spritecount="1"
+			/>
+		
+		
+	</terrain>
+	
+	<weather
+		cloudtexture="/textures/sky/blue.jpg"
+		cloudscrollrate="0.003"
+		fogcolor="0.9, 0.95, 1.0"
+		fogdensity="0.01"
+		fogdensitysky="0.8"
+		/>
+	
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	
+	<race coordscale="4.0, -4.0"
+		targettime="420.0">
+		
+		<startposition pos="35, 43, 2.0" oridegrees="180" />
+		
+		<checkpoint coords="151, 82" />
+		<checkpoint coords="225, 80" />
+		<checkpoint coords="184, 139" />
+		<checkpoint coords="49, 224" />
+		<checkpoint coords="252, 169" />
+		<checkpoint coords="300, 64" />
+		<checkpoint coords="363, 112" />
+		<checkpoint coords="213, 216" />
+		<checkpoint coords="160, 267" />
+		<checkpoint coords="212, 249" />
+		<checkpoint coords="350, 211" />
+		<checkpoint coords="233, 295" />
+		<checkpoint coords="122, 326" />
+		<checkpoint coords="46, 411" />
+		<checkpoint coords="108, 346" />
+		<checkpoint coords="183, 376" />
+		<checkpoint coords="299, 301" />
+		<checkpoint coords="391, 398" />
+		<checkpoint coords="420, 220" />
+		<checkpoint coords="440, 35" />
+		
+	</race>
+	
+</level>

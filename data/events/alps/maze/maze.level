@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<level
+	name="Maze"
+	comment="Don't get confused!"
+	author="Onsemeliot"
+	randomseed="1000"
+	>
+	
+	<terrain
+		heightmap="heightmap.png"
+		colormap="colormap.jpg"
+		foliagemap="foliagemap.png"
+		hudmap="hud.png"
+		tilesize="32"
+		horizontalscale="3.2"
+		verticalscale="0.3"
+		>
+	</terrain>
+	
+	<weather
+		cloudtexture="darkblue.jpg"
+		cloudscrollrate="0.02"
+		fogcolor="0.3, 0.3, 0.4"
+		fogdensity="0.002"
+		fogdensitysky="0.001"
+		/>
+	
+	<vehicleoption type="/vehicles/evo/evo.vehicle" />
+	<vehicleoption type="/vehicles/focus/focus.vehicle" />
+	<vehicleoption type="/vehicles/seat/seat.vehicle" />
+	
+	<race coordscale="3.2, 3.2"
+		targettime="490">
+		
+		<startposition pos="216, 84" oridegrees="100" />
+		<checkpoint coords="106, 23" />
+		<checkpoint coords="213, 57" />
+		<checkpoint coords="287, 109" />
+		<checkpoint coords="208, 152" />
+		<checkpoint coords="120, 129" />
+		<checkpoint coords="42, 175" />
+		<checkpoint coords="43, 279" />
+		<checkpoint coords="130, 310" />
+		<checkpoint coords="187, 258" />
+		<checkpoint coords="198, 330" />
+		<checkpoint coords="140, 406" />
+		<checkpoint coords="211, 452" />
+		<checkpoint coords="260, 388" />
+		<checkpoint coords="321, 440" />
+		<checkpoint coords="389, 418" />
+		<checkpoint coords="416, 341" />
+		<checkpoint coords="341, 307" />
+		<checkpoint coords="257, 252" />
+		<checkpoint coords="324, 239" />
+		<checkpoint coords="328, 184" />
+		<checkpoint coords="411, 154" />
+		<checkpoint coords="428, 217" />
+		<checkpoint coords="374, 195" />
+		<checkpoint coords="415, 70" />
+		
+	</race>
+	
+</level>
