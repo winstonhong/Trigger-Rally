@@ -1,0 +1,10 @@
+SubDir TOP src glew ;
+
+Help glew : "Build the glew library" ;
+Library glew : [ Wildcard *.c *.cpp *.h ]
+               [ Wildcard GL : *.h ] ;
+
+IncludeDir glew : . ;
+
+ExternalLibs glew : SDL SDLIMAGE SDLTTF AUDIOLIB GL PHYSFS ;
+

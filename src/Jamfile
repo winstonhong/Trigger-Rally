@@ -1,0 +1,14 @@
+SubDir TOP src ;
+
+# I can't get these C[++]Flags rules to work :/
+#CFlags pengine : -DDATADIR='\"$(datadir)\"' : export ;
+
+CFLAGS += -DDATADIR='\"$(datadir)\"' ;
+C++FLAGS += -DDATADIR='\"$(datadir)\"' ;
+
+
+SubInclude TOP src glew ;
+SubInclude TOP src pengine ;
+SubInclude TOP src psim ;
+SubInclude TOP src trigger ;
+

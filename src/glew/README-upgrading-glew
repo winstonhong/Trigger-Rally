@@ -1,0 +1,18 @@
+
+GLEW built and linked statically with the game to make troubleshooting
+easier (one known GLEW version for each release).
+
+To upgrade this included version, copy the glew.c from the latest glew
+source archive into this directory, and the headers into GL/
+
+Then add to the top of glew.c:
+
+#define GLEW_STATIC
+
+Hopefully this will allow the new GLEW to build statically with the game.
+
+Also, for this last release, my build setup was a bit dodgy and wouldn't
+cross-compile .c files.  So I renamed it to .cpp, and wrapped in an
+extern "C" { }.  If I was more patient I might try to find out why...
+
+- Jaz 7/1/06

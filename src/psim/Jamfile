@@ -1,0 +1,7 @@
+SubDir TOP src psim ;
+
+Help psim : "Build the psim library" ;
+Library psim : [ Wildcard *.cpp *.h ] ;
+ExternalLibs psim : SDL SDLIMAGE AUDIOLIB GL GLU PHYSFS ;
+
+IncludeDir psim : ../glew ;

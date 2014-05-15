@@ -1,0 +1,9 @@
+SubDir TOP src pengine ;
+
+Help pengine : "Build the pengine library" ;
+Library pengine : [ Wildcard *.c *.cpp *.h ]
+                  [ Wildcard GL : *.h ] ;
+ExternalLibs pengine : SDL SDLIMAGE AUDIOLIB GL GLU PHYSFS ;
+LinkWith pengine : glew ;
+
+IncludeDir pengine : ../glew ;
