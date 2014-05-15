@@ -1,0 +1,36 @@
+# make sure top_builddir is set
+if ! $(top_builddir)
+{
+    top_builddir = $(TOP) ;
+}
+top_srcdir = $(TOP) ;
+
+# check if a Jamconfig file already exists
+JAMCONFIG ?= $(top_builddir)/Jamconfig ;
+include $(JAMCONFIG) ;
+if ! $(JAMCONFIG_READ)
+{
+  EXIT "Couldn't find config. Please run 'configure' first." ;
+}
+
+# It's a c++ application, so we should link with the c++ compiler
+LINK = $(CXX) ;
+
+# do some compiler settings for the different compilation modes
+COMPILER_CFLAGS += -Wall ;
+COMPILER_CFLAGS_optimize += -O3 ;
+COMPILER_LFLAGS_optimize += -O3 ;
+COMPILER_CFLAGS_debug += -W -DDEBUG -g3 ;
+COMPILER_LFLAGS_debug += -g3 ;
+COMPILER_CFLAGS_profile += -DDEBUG -O3 -g3 -pg ;
+COMPILER_LFLAGS_profile += -g3 -O3 -pg ;
+
+# Include build rules
+include $(TOP)/mk/jam/build.jam ;
+
+# Include the top_builddir dir, because it contains config.h
+# (not used by trigger yet, but would be usefull eventually :)
+# IncludeDir $(top_builddir) ;
+
+# also add the src dir as include directory
+IncludeDir $(TOP)/src ;
